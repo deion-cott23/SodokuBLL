@@ -2,7 +2,13 @@ package pkgGame;
 
 public class Sodoku {
 	
-	private int [][] puzzle;
+	int element;
+	
+	private int [][] LatinSquare;
+	
+	public boolean ContainsZero() {
+			return element==0;
+	}
 	
 	
 
