@@ -23,6 +23,7 @@ public class LatinSquare {
 		return false;
 	}
 	
+	
 	public boolean doesElementExist(int[] arr, int iValue) {
 		for (int i : arr) {
 			if (i==iValue) {
@@ -30,6 +31,10 @@ public class LatinSquare {
 			}
 		}
 		return false;
+	}
+	
+	public int[] getRow(int iRow) {
+		return myLatinSquare[iRow];
 	}
 
 }
