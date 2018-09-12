@@ -14,7 +14,7 @@ public class LatinSquare {
 		{
 			for (int iRow = 0; iRow < myLatinSquare.length; iRow++)
 			{
-				if (myLatinSquare[iCol][iRow]==0)
+				if (myLatinSquare[iRow][iCol]==0)
 				{
 					return true;
 				}
