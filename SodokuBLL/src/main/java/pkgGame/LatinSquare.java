@@ -2,6 +2,7 @@ package pkgGame;
 
 public class LatinSquare {
 	
+	private static int length;
 	private int [][] myLatinSquare;
 	
 	public LatinSquare(int [][] twoDimArray)
@@ -34,7 +35,10 @@ public class LatinSquare {
 	}
 	
 	public int[] getRow(int iRow) {
-		return myLatinSquare[iRow];
+		for (int iRow = 0; iRow < LatinSquare.length; iRow++) {
+			int[] myArray;
+			System.out.println(iRow + "\t" + myArray[iRow]);
+		}
 	}
 
 }
